@@ -76,3 +76,4 @@ Key: PASSWORD | Value: (YOUR PASSWORD)
 
 4. Change the settings in the main.py.
 
+![Settings](https://cdn.discordapp.com/attachments/1147264043225198632/1163144926914170961/code-snapshot.png?ex=653e8220&is=652c0d20&hm=d8041cefe0c5dfa288d1d62b32c727fe2505cb66f5114970bdd1fbd8ebdea781&)
