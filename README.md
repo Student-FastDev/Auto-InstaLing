@@ -55,6 +55,7 @@ python main.py
 Edit the settings, by opening the main.py in some text editor.
 Change the LOGIN and PASSWORD.
 
+![Settings](https://cdn.discordapp.com/attachments/1147264043225198632/1163144335836074086/code-snapshot.png?ex=653e8193&is=652c0c93&hm=6624d513f3133ce3579e35e194dfd0fa3228f05638f8c4d32fed85ce14804b05&)
 
 ## Replit Integration
 
