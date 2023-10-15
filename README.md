@@ -1,1 +1,1 @@
-# Auto-Insta.ling
+# Auto-InstaLing
