@@ -2,7 +2,7 @@
 
 InstaLing bot made with selenium.
 
-Improved version of [Guru18650/instaling-bot](https://github.com/Guru18650/instaling-bot)
+Improved version of [Guru18650/instaling-bot.](https://github.com/Guru18650/instaling-bot)
 
 ## Table of Contents
 - [Getting Started](#getting-started)
