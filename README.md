@@ -8,7 +8,6 @@ Short description of your repository.
   - [Installation](#installation)
 - [Usage](#usage)
   - [Running the Python File](#running-the-python-file)
-- [Screenshots](#screenshots)
 - [Replit Integration](#replit-integration)
 
 ## Getting Started
@@ -26,13 +25,13 @@ Before you begin, ensure you have the following installed:
 1. Clone this repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
+git clone https://github.com/Student-FastDev/Auto-InstaLing
 ```
 
 2. Change to the project directory:
 
 ```bash
-cd your-repo
+cd (path to Auto-InstaLing)
 ```
 
 3. Install the required Python packages using pip and the requirements.txt file:
@@ -40,3 +39,33 @@ cd your-repo
 ```bash
 pip install -r requirements.txt
 ```
+
+## Usage
+
+### Running the Python File
+
+To run the Python file, use the following command while being in the repository folder:
+
+```bash
+python main.py
+```
+
+Edit the settings, by opening the main.py in some text editor.
+
+## Replit Integration
+
+You can also run this project on Replit. To do so, follow these steps:
+
+1. [Click here to access the Replit project](https://replit.com/@FAST-qq/Auto-InstaLing?v=1)
+
+2. Fork the project.
+
+3. In the Replit project settings, add the following secrets:
+
+```bash
+Key: LOGIN | Value: (YOUR LOGIN)
+Key: PASSWORD | Value: (YOUR PASSWORD)
+```
+
+4. Change the settings in the main.py.
+
