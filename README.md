@@ -1,6 +1,7 @@
-# Your Repository Name
+# Auto-InstaLing
 
-Short description of your repository.
+InstaLing bot made with selenium.
+Improved version of [Guru18650/instaling-bot](https://github.com/Guru18650/instaling-bot)
 
 ## Table of Contents
 - [Getting Started](#getting-started)
@@ -51,6 +52,7 @@ python main.py
 ```
 
 Edit the settings, by opening the main.py in some text editor.
+Change the LOGIN and PASSWORD.
 
 ## Replit Integration
 
