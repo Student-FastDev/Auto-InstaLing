@@ -32,7 +32,7 @@ git clone https://github.com/yourusername/your-repo.git
 2. Change to the project directory:
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
+cd your-repo
 ```
 
 3. Install the required Python packages using pip and the requirements.txt file:
