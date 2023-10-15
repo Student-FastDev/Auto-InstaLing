@@ -25,18 +25,18 @@ Before you begin, ensure you have the following installed:
 
 1. Clone this repository to your local machine using Git:
 
-   ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   ```
+```bash
+git clone https://github.com/yourusername/your-repo.git
+```
 
 2. Change to the project directory:
 
-  ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   ```
+```bash
+git clone https://github.com/yourusername/your-repo.git
+```
 
 3. Install the required Python packages using pip and the requirements.txt file:
 
-  ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
