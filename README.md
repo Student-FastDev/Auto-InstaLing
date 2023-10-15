@@ -56,6 +56,7 @@ Change the LOGIN and PASSWORD.
 
 ## Replit Integration
 
+[Replit can work 24/7, with delay]
 You can also run this project on Replit. To do so, follow these steps:
 
 1. [Click here to access the Replit project](https://replit.com/@FAST-qq/Auto-InstaLing?v=1)
