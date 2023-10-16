@@ -6,8 +6,8 @@ Made for educational purposes!
 
 ## Table of Contents
 - [Questions](#questions)
-  - [How this works?](#how-this-works?)
-  - [Is it safe?](#is-it-safe?)
+  - [How this works?](#how-this-works)
+  - [Is it safe?](#is-it-safe)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
