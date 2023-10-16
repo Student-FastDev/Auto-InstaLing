@@ -26,19 +26,19 @@ Before you begin, ensure you have the following installed:
 
 1. Clone this repository to your local machine using Git:
 
-```bash
+```plain
 git clone https://github.com/Student-FastDev/Auto-InstaLing
 ```
 
 2. Change to the project directory:
 
-```bash
+```plain
 cd (path to Auto-InstaLing)
 ```
 
 3. Install the required Python packages using pip and the requirements.txt file:
 
-```bash
+```plain
 pip install -r requirements.txt
 ```
 
@@ -74,9 +74,17 @@ You can also run this project on Replit. To do so, follow these steps:
 
 3. In the Replit project settings, add the following secrets:
 
-```bash
+```plain
 Key: LOGIN | Value: (YOUR LOGIN)
 Key: PASSWORD | Value: (YOUR PASSWORD)
 ```
 
-4. Change the settings in the main.py.
+4. Change the settings in the settings.json (will appear after running the program for the first time).
+
+```plain
+{
+    "entries": 3, <- The amount of entries done in each program run.
+    "headless": false, <- If true, the browser will be invisible (not that important on the replit). 
+    "delay": "86400" <- Delay between each program run. (in seconds)
+}
+```
