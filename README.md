@@ -6,11 +6,26 @@ Made for educational purposes!
 
 ## Table of Contents
 - [Getting Started](#getting-started)
+- [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
   - [Running the Python File](#running-the-python-file)
 - [Replit Integration](#replit-integration)
+
+
+## Questions
+
+## How this works?
+
+Data will be learnt by bruteforce, data.json will be generated. There you can find all gathered translations ("your language":"foreign language").
+You can see that bot makes mistakes at first few runs, thats because it is learning new words. Later it will be 100% accurate.
+
+## Is it safe?
+
+The local version is made with [undetected-chromedriver.](https://github.com/ultrafunkamsterdam/undetected-chromedriver) It is very safe and undetectable in 99% of cases.
+
+The replit version, because of the limitations of replit, is a little less safe, although it is still very reliable. But it also have pros, free and good hosting for low demanding programs like this.
 
 ## Getting Started
 
