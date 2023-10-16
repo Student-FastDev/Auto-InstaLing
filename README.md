@@ -52,8 +52,16 @@ To run the Python file, use the following command while being in the repository 
 python main.py
 ```
 
-Edit the settings, by opening the main.py in some text editor.
-Change the LOGIN and PASSWORD.
+Edit the settings, by opening the settings.json (will appear after running the program for the first time) in some text editor.
+
+```bash
+{
+    "entries": 3, <- The amount of entries done in each program run.
+    "headless": false, <- If true, the browser will be invisible.
+    "login": "example_login", <- Here enter your InstaLing login.
+    "password": "example_password" <- Here enter your InstaLing password.
+}
+```
 
 ![Settings](https://cdn.discordapp.com/attachments/1147264043225198632/1163144335836074086/code-snapshot.png?ex=653e8193&is=652c0c93&hm=6624d513f3133ce3579e35e194dfd0fa3228f05638f8c4d32fed85ce14804b05&)
 
