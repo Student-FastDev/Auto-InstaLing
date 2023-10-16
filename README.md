@@ -62,9 +62,6 @@ Edit the settings, by opening the settings.json (will appear after running the p
     "password": "example_password" <- Here enter your InstaLing password.
 }
 ```
-
-![Settings](https://cdn.discordapp.com/attachments/1147264043225198632/1163144335836074086/code-snapshot.png?ex=653e8193&is=652c0c93&hm=6624d513f3133ce3579e35e194dfd0fa3228f05638f8c4d32fed85ce14804b05&)
-
 ## Replit Integration
 
 [Replit can work 24/7, with delay]
@@ -83,5 +80,3 @@ Key: PASSWORD | Value: (YOUR PASSWORD)
 ```
 
 4. Change the settings in the main.py.
-
-![Settings](https://cdn.discordapp.com/attachments/1147264043225198632/1163144926914170961/code-snapshot.png?ex=653e8220&is=652c0d20&hm=d8041cefe0c5dfa288d1d62b32c727fe2505cb66f5114970bdd1fbd8ebdea781&)
