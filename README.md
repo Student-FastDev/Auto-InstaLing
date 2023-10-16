@@ -54,7 +54,7 @@ python main.py
 
 Edit the settings, by opening the settings.json (will appear after running the program for the first time) in some text editor.
 
-```bash
+```plain
 {
     "entries": 3, <- The amount of entries done in each program run.
     "headless": false, <- If true, the browser will be invisible.
@@ -68,7 +68,7 @@ Edit the settings, by opening the settings.json (will appear after running the p
 
 You can also run this project on Replit. To do so, follow these steps:
 
-1. [Click here to access the Replit project.](https://replit.com/@FAST-qq/Auto-InstaLing?v=1)
+1. [Click here to access the Replit project.](https://replit.com/@FAST-qq/Auto-InstaLing)
 
 2. Fork the project.
 
