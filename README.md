@@ -38,7 +38,7 @@ This section will guide you through setting up and running the project locally.
 ### Prerequisites
 
 Before you begin, ensure you have the following installed:
-- **Chrome**
+- **Chrome [REALLY IMPORTANT]**
 - Python
 - Git
 
