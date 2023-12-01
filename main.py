@@ -1,6 +1,7 @@
 # Import necessary libraries
 from prettytable import PrettyTable
 from genericpath import isfile
+from clear_screen import clear
 import json
 import time
 from selenium import webdriver
@@ -195,7 +196,7 @@ def checkLogin():
     # Check if the login or password fields are empty
     if (settings["login"] == "" or settings["password"] == ""):
         # Clear the console
-        print("\033c")
+        clear()
         # Print an error message
         print("Error! No password or username.")
         # Return False indicating that the login check failed
@@ -210,14 +211,13 @@ def checkEntries():
     # Check if the number of entries is less than or equal to 0
     if (settings["entries"] <= 0):
         # Clear the console
-        print("\033c")
+        clear()
         # Print an error message
         print("Error! Entries cannot be lower than 1.")
         # Return False indicating that the entries check failed
         return False
     # If the number of entries is greater than 0, return True indicating that the entries check passed
     return True
-
 
 if __name__ == "__main__":
     try:
@@ -244,7 +244,7 @@ if __name__ == "__main__":
                 # Add a row to the table with the current date and time, the session number, and "N/A" for the resolving time
                 table.add_row([y, str(x) + " / Doing", "N/A"])
                 # Clear the console
-                print("\033c")
+                clear()
                 # Print the table
                 print(table)
 
@@ -260,7 +260,7 @@ if __name__ == "__main__":
                 # If the current URL indicates that the login failed
                 if(driver.current_url == "https://instaling.pl/teacher.php?page=login"):
                     # Clear the console
-                    print("\033c")
+                    clear()
                     # Print an error message
                     print("Error! Invalid login or password.")
                     # Quit the driver
@@ -290,7 +290,7 @@ if __name__ == "__main__":
                 table.add_row([y, str(x) + " / Done", resolving_time])
 
                 # Clear the console
-                print("\033c")
+                clear()
                 # Print the table
                 print(table)
                 # Set the programDone flag to True
@@ -301,6 +301,7 @@ if __name__ == "__main__":
     # If an exception is raised
     except:
         # Clear the console
-        print("\033c")
+        clear()
         # Print an error message
         print("Error or program closed before finish!")
+input("Press enter to exit.")
