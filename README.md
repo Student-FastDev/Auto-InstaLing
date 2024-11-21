@@ -2,8 +2,6 @@
 
 InstaLing bot made with selenium.
 
-Made for educational purposes!
-
 ## Table of Contents
 - [Questions](#questions)
   - [How this works?](#how-this-works)
@@ -20,7 +18,7 @@ Made for educational purposes!
 
 ### How this works?
 
-Data will be learnt by bruteforce, data.json will be generated. There you can find all gathered translations ("your language":"foreign language").
+Data will be learnt by bruteforce, data.json will be generated. There you can find all gathered translations.
 You can see that bot makes mistakes at first few runs, thats because it is learning new words. Later it will be 100% accurate.
 
 ### Is it safe?
@@ -38,7 +36,7 @@ This section will guide you through setting up and running the project locally.
 ### Prerequisites
 
 Before you begin, ensure you have the following installed:
-- **Chrome [REALLY IMPORTANT]**
+- **Chrome**
 - Python
 - Git
 
@@ -83,8 +81,6 @@ Edit the settings, by opening the settings.json (will appear after running the p
 }
 ```
 ## Replit Integration
-
-[Replit can work 24/7, with delay]
 
 You can also run this project on Replit. To do so, follow these steps:
 
