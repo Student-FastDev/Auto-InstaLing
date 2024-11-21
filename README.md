@@ -23,11 +23,8 @@ You can see that bot makes mistakes at first few runs, thats because it is learn
 
 ### Is it safe?
 
-The local version is made with [undetected-chromedriver.](https://github.com/ultrafunkamsterdam/undetected-chromedriver) It is very safe and undetectable in 99% of cases.
-
-The replit version, because of the limitations of replit, is a little less safe, although it is still very reliable. But it also have pros, free and good hosting for low demanding programs like this.
-
-There were no security issues when I tested the program. (10/16/2023)
+The local version is made with [undetected-chromedriver.](https://github.com/ultrafunkamsterdam/undetected-chromedriver)
+There were no security issues when I tested the program.
 
 ## Getting Started
 
