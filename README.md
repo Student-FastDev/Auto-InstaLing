@@ -1,103 +1,111 @@
 # Auto-InstaLing
 
-InstaLing bot made with selenium.
+**Auto-InstaLing** is a Selenium-based bot designed to automate interactions with the InstaLing platform. It leverages undetected-chromedriver to ensure seamless operation without triggering security measures. The bot learns and adapts through brute force, generating translations and improving accuracy over time.
 
-## Table of Contents
-- [Questions](#questions)
-  - [How this works?](#how-this-works)
-  - [Is it safe?](#is-it-safe)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-  - [Running the Python File](#running-the-python-file)
-- [Replit Integration](#replit-integration)
+## Features
 
+- **Automated Interactions:** Streamline tasks on the InstaLing platform using Selenium.
+- **Learning Mechanism:** Continuously improves translation accuracy by learning from interactions.
+- **Undetected Chromedriver:** Utilizes [undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) to bypass detection.
+- **Headless Mode:** Option to run the browser in headless mode for background operations.
+- **Replit Integration:** Easily deploy and run the bot on Replit for cloud-based automation.
 
-## Questions
+## Prerequisites
 
-### How this works?
+To run the Auto-InstaLing script, ensure you have the following installed:
 
-Data will be learnt by bruteforce, data.json will be generated. There you can find all gathered translations.
-You can see that bot makes mistakes at first few runs, thats because it is learning new words. Later it will be 100% accurate.
+- **Python:** Version 3.6 or higher.
+- **Google Chrome:** Latest version recommended.
+- **Git:** For cloning the repository.
 
-### Is it safe?
+## Installation
 
-The local version is made with [undetected-chromedriver.](https://github.com/ultrafunkamsterdam/undetected-chromedriver)
-There were no security issues when I tested the program.
+1. **Clone the Repository:**
 
-## Getting Started
+    ```sh
+    git clone https://github.com/Student-FastDev/Auto-InstaLing
+    cd Auto-InstaLing
+    ```
 
-This section will guide you through setting up and running the project locally.
+2. **Install Required Packages:**
 
-### Prerequisites
+    Install the necessary Python packages using `pip`:
 
-Before you begin, ensure you have the following installed:
-- **Chrome**
-- Python
-- Git
-
-### Installation
-
-1. Clone this repository to your local machine using Git:
-
-```plain
-git clone https://github.com/Student-FastDev/Auto-InstaLing
-```
-
-2. Change to the project directory:
-
-```plain
-cd (path to Auto-InstaLing)
-```
-
-3. Install the required Python packages using pip and the requirements.txt file:
-
-```plain
-pip install -r requirements.txt
-```
+    ```sh
+    pip install -r requirements.txt
+    ```
 
 ## Usage
 
-### Running the Python File
+1. **Run the Python Script:**
 
-To run the Python file, use the following command while being in the repository folder:
+    Execute the main script to start the automation process:
 
-```bash
-python main.py
-```
+    ```bash
+    python main.py
+    ```
 
-Edit the settings, by opening the settings.json (will appear after running the program for the first time) in some text editor.
+2. **Configure Settings:**
 
-```plain
-{
-    "entries": 3, <- The amount of entries done in each program run.
-    "headless": false, <- If true, the browser will be invisible.
-    "login": "example_login", <- Here enter your InstaLing login.
-    "password": "example_password" <- Here enter your InstaLing password.
-}
-```
+    After running the program for the first time, a `settings.json` file will be generated. Open this file in a text editor to customize your settings:
+
+    ```json
+    {
+        "entries": 3,
+        "headless": false,
+        "login": "example_login",
+        "password": "example_password"
+    }
+    ```
+
+    - **entries:** The number of entries to process in each run.
+    - **headless:** Set to `true` to run the browser in headless mode.
+    - **login:** Your InstaLing login username.
+    - **password:** Your InstaLing login password.
+
 ## Replit Integration
 
-You can also run this project on Replit. To do so, follow these steps:
+You can also run this project on Replit. Follow these steps to set it up:
 
-1. [Click here to access the Replit project.](https://replit.com/@FAST-qq/Auto-InstaLing)
+1. **Access the Replit Project:**
 
-2. Fork the project.
+    [Click here to access the Replit project.](https://replit.com/@FAST-qq/Auto-InstaLing)
 
-3. In the Replit project settings, add the following secrets:
+2. **Fork the Project:**
 
-```plain
-Key: LOGIN | Value: (YOUR LOGIN)
-Key: PASSWORD | Value: (YOUR PASSWORD)
-```
+    Fork the repository to your own Replit account.
 
-4. Change the settings in the settings.json (will appear after running the program for the first time).
+3. **Add Secrets:**
 
-```plain
-{
-    "entries": 3, <- The amount of entries done in each program run.
-    "headless": false, <- If true, the browser will be invisible (not that important on the replit). 
-    "delay": "86400" <- Delay between each program run. (in seconds)
-}
-```
+    In the Replit project settings, add the following secrets:
+
+    ```plaintext
+    Key: LOGIN | Value: (YOUR LOGIN)
+    Key: PASSWORD | Value: (YOUR PASSWORD)
+    ```
+
+4. **Update Settings:**
+
+    Modify the `settings.json` file to suit the Replit environment:
+
+    ```json
+    {
+        "entries": 3,
+        "headless": false,
+        "delay": 86400
+    }
+    ```
+
+    - **delay:** Time in seconds between each program run (e.g., 86400 seconds for 24 hours).
+
+## Notes
+
+- **Data Learning:** The bot uses brute force to learn and generate translations, which are stored in `data.json`. Initial runs may contain inaccuracies as the bot learns new words.
+- **Security:** The local version uses [undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) to minimize detection. No security issues were identified during testing.
+- **Browser Requirements:** Ensure that Google Chrome is installed and compatible with the version required by undetected-chromedriver.
+
+---
+
+<div align="center">  
+    <img src="https://www.zstjaslo.pl/wp-content/uploads/2022/10/instaling-logo-article.webp" alt="Instaling Logo" width="50px">
+</div>
