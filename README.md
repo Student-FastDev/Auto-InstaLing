@@ -107,5 +107,5 @@ You can also run this project on Replit. Follow these steps to set it up:
 ---
 
 <div align="center">  
-    <img src="https://www.zstjaslo.pl/wp-content/uploads/2022/10/instaling-logo-article.webp" alt="Instaling Logo" width="50px">
+    <img src="https://i.imgur.com/C41nvYs.png" alt="Instaling Logo" width="60px">
 </div>
