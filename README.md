@@ -8,7 +8,6 @@
 - **Learning Mechanism:** Continuously improves translation accuracy by learning from interactions.
 - **Undetected Chromedriver:** Utilizes [undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) to bypass detection.
 - **Headless Mode:** Option to run the browser in headless mode for background operations.
-- **Replit Integration:** Easily deploy and run the bot on Replit for cloud-based automation.
 
 ## Prerequisites
 
@@ -62,41 +61,6 @@ To run the Auto-InstaLing script, ensure you have the following installed:
     - **headless:** Set to `true` to run the browser in headless mode.
     - **login:** Your InstaLing login username.
     - **password:** Your InstaLing login password.
-
-## Replit Integration
-
-You can also run this project on Replit. Follow these steps to set it up:
-
-1. **Access the Replit Project:**
-
-    [Click here to access the Replit project.](https://replit.com/@FAST-qq/Auto-InstaLing)
-
-2. **Fork the Project:**
-
-    Fork the repository to your own Replit account.
-
-3. **Add Secrets:**
-
-    In the Replit project settings, add the following secrets:
-
-    ```plaintext
-    Key: LOGIN | Value: (YOUR LOGIN)
-    Key: PASSWORD | Value: (YOUR PASSWORD)
-    ```
-
-4. **Update Settings:**
-
-    Modify the `settings.json` file to suit the Replit environment:
-
-    ```json
-    {
-        "entries": 3,
-        "headless": false,
-        "delay": 86400
-    }
-    ```
-
-    - **delay:** Time in seconds between each program run (e.g., 86400 seconds for 24 hours).
 
 ## Notes
 
