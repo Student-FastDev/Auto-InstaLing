@@ -1,6 +1,6 @@
 # Auto-InstaLing
 
-**Auto-InstaLing** is a bot designed to automate interactions with the InstaLing platform.
+Bot designed to automate interactions with the InstaLing platform.
 
 ## Prerequisites
 
