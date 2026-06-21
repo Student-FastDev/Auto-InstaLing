@@ -59,7 +59,7 @@ To run the Auto-InstaLing script, ensure you have the following installed:
 
 - **Data Learning:** The bot uses brute force to learn and generate translations, which are stored in `data.json`. Initial runs may contain inaccuracies as the bot learns new words.
 - **Security:** The local version uses [undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) to minimize detection. No security issues were identified during testing.
-- **Browser Requirements:** Ensure that Google Chrome is installed and compatible with the version required by undetected-chromedriver.
+- **Browser Requirements:** Ensure that Google Chrome is installed and compatible with the version required by chromedriver.
 
 ---
 
