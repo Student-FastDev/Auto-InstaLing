@@ -4,7 +4,7 @@ Bot designed to automate interactions with the InstaLing platform.
 
 ## Prerequisites
 
-To run the Auto-InstaLing script, ensure you have the following installed:
+To run the script, ensure you have the following installed:
 
 - **Python:** Version 3.6 or higher.
 - **Google Chrome:** Latest version recommended.
