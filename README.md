@@ -1,13 +1,6 @@
 # Auto-InstaLing
 
-**Auto-InstaLing** is a Selenium-based bot designed to automate interactions with the InstaLing platform. It leverages undetected-chromedriver to ensure seamless operation without triggering security measures. The bot learns and adapts through brute force, generating translations and improving accuracy over time.
-
-## Features
-
-- **Automated Interactions:** Streamline tasks on the InstaLing platform using Selenium.
-- **Learning Mechanism:** Continuously improves translation accuracy by learning from interactions.
-- **Undetected Chromedriver:** Utilizes [undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) to bypass detection.
-- **Headless Mode:** Option to run the browser in headless mode for background operations.
+**Auto-InstaLing** is a bot designed to automate interactions with the InstaLing platform.
 
 ## Prerequisites
 
